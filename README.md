@@ -75,6 +75,10 @@ O dataset `lead1.0-small.csv` contém leituras de consumo energético em kWh de 
 ### Referência do dataset  
 - **LEAD1.0: A Large-scale Annotated Dataset for Energy Anomaly Detection in Commercial Buildings**, Manoj Gulati & Pandarasamy Arjunan, arXiv preprint, 30 de março de 2022. Disponível em: [arXiv](https://arxiv.org/abs/2203.17256)
 
+## 🧩 Algoritmo TEDA
+
+O TEDA (Typicality and Eccentricity Data Analytics) é um método incremental para detecção de anomalias que **não requer treinamento prévio** e é adequado para **execução em dispositivos embarcados** (TinyML).
+
 ### Principais referências:
 
 - Angelov, P. **"Anomaly detection based on eccentricity analysis"**, apresentação do framework TEDA em *IEEE Symposium on Evolving and Autonomous Learning Systems (EALS)*, Orlando, FL, EUA, dezembro de 2014. Introduz os conceitos de *typicality* e *eccentricity*, calculados de forma recursiva e sem assumir distribuições paramétricas.  [IEEE Xplore](https://ieeexplore.ieee.org/document/7009497) 
@@ -85,11 +89,6 @@ O dataset `lead1.0-small.csv` contém leituras de consumo energético em kWh de 
 - **TEDA-RLS: A TinyML Incremental Learning Approach for Outlier Detection and Correction**, Pedro Andrade et al., *IEEE Sensors Journal*, novembro de 2024. Proposta de um algoritmo incremental baseado em RLS para detecção e correção de outliers em tempo real, implementado em um scanner OBD-II como prova de conceito. Disponível em: [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10682534)
 
 - **TEDA-Forecasting: An Unsupervised TinyML Incremental Learning Approach for Outlier Processing and Forecasting**, Pedro Andrade et al., *Computing*, vol. 107, artigo 162, publicado em 2 de julho de 2025, DOI: 10.1007/s00607-025-01490-3. Apresenta uma versão do TEDA adaptada para previsão de séries temporais e correção de outliers, com execução em dispositivo real de edge computing (TinyML)  [Springer Nature - Computing](https://link.springer.com/article/10.1007/s00607-025-01490-3)
-
-
-## 🧩 Algoritmo TEDA
-
-O TEDA (Typicality and Eccentricity Data Analytics) é um método incremental para detecção de anomalias que **não requer treinamento prévio** e é adequado para **execução em dispositivos embarcados** (TinyML).
 
 ## 🏆 Atividades
 
